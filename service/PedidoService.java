@@ -21,7 +21,7 @@ public class PedidoService {
                 .collect(Collectors.toMap(
                         Produto::getDescricao,
                         Produto::getPreco,
-                        (p1, p2) -> p1 // resolve duplicados
+                        (p1, p2) -> p1 
                 ));
     }
 
