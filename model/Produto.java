@@ -16,7 +16,7 @@ public class Produto {
         this.categoria = categoria;
     }
 
-    // GETTERS E SETTERS
+  
     public String getDescricao() {
         return descricao;
     }
@@ -44,7 +44,7 @@ public class Produto {
         this.categoria = categoria;
     }
 
-    // toString (somente nome e preço)
+    
     @Override
     public String toString() {
         return "Produto: " + descricao + " | Preço: " + preco;
