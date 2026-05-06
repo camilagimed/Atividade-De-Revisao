@@ -9,7 +9,7 @@ public class Main {
 
         Pedido pedido = new Pedido();
 
-        // adicionando produtos (com duplicado de nome)
+        
         pedido.adicionarProduto(new Produto("Arroz", 20.0, "Alimento"));
         pedido.adicionarProduto(new Produto("Feijão", 10.0, "Alimento"));
         pedido.adicionarProduto(new Produto("Notebook", 3000.0, "Eletronico"));
